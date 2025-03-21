@@ -1,6 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using Todo.Data;
 using Todo.Service;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+// Adiciona o DbContext ao container de dependências
+builder.Services.AddDbContext<TodoContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
 
 // Adicione o serviço de controllers
 builder.Services.AddControllers();  // IMPORTANTE: Adiciona suporte a controllers
@@ -10,7 +18,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Adiciona o TaskService como Singleton
-builder.Services.AddSingleton<TaskService>();
+builder.Services.AddScoped<TaskService>();
 
 var app = builder.Build();
 
