@@ -11,7 +11,7 @@ public class TaskModel
     public int Id { get; set; }
     
     [Required]
-    public String Title { get; set; }
+    public String Title { get; set; }   
     
     [Required]
     public bool IsCompleted { get; set; } = false;
