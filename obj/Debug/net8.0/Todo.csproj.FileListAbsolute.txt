@@ -26,7 +26,6 @@
 /home/joao/Apis/todo/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Todo.props
 /home/joao/Apis/todo/obj/Debug/net8.0/staticwebassets.pack.json
 /home/joao/Apis/todo/obj/Debug/net8.0/scopedcss/bundle/Todo.styles.css
-/home/joao/Apis/todo/obj/Debug/net8.0/Todo.csproj.Up2Date
 /home/joao/Apis/todo/obj/Debug/net8.0/Todo.dll
 /home/joao/Apis/todo/obj/Debug/net8.0/refint/Todo.dll
 /home/joao/Apis/todo/obj/Debug/net8.0/Todo.pdb
@@ -134,3 +133,4 @@
 /home/joao/Apis/todo/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /home/joao/Apis/todo/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /home/joao/Apis/todo/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+/home/joao/Apis/todo/obj/Debug/net8.0/Todo.csproj.CopyComplete
